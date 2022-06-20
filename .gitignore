@@ -1,0 +1,6 @@
+.idea/*
+*.db
+*.iml
+db
+.DS_STORE
+
