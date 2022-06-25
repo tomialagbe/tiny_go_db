@@ -71,13 +71,3 @@ func dbClose(table *Table) {
 	pager = nil
 	table = nil
 }
-
-//func rowSlot(table *Table, rowNum uint32) unsafe.Pointer {
-//	pageNum := rowNum / RowsPerPage
-//	page := getPage(table.Pager, pageNum)
-//
-//	rowOffset := rowNum % RowsPerPage
-//	byteOffset := rowOffset * RowSize
-//
-//	return unsafe.Add(page, byteOffset)
-//}
